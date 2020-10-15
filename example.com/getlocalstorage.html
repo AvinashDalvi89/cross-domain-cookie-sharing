@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Listner of Example.com</title>
+</head>
+<body>
+
+<script type="text/javascript">
+var PERMITTED_DOMAIN = "http://example2.com";
+/**
+ * Receiving message from other domain
+ */
+window.addEventListener('message', function(event) {
+    if (event.origin === PERMITTED_DOMAIN) {
+        //var msg = JSON.parse(event.data);
+        // var msgKey = Object.keys(msg)[0];
+        if (event.data) {
+            localStorage.setItem("localstorage", event.data);
+        } else {
+            localStorage.removeItem("localstorage");
+        }
+    }
+
+});
+</script>
+</body>
+</html>
