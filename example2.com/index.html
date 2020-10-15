@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example2.com Domain </title>
+</head>
+<body>
+<iframe style="display:none;" src="http://example.com/getlocalstorage.html" id="ifr"></iframe>
+	
+<script type="text/javascript">
+function postCrossDomainMessage(msg) {
+  var win = document.getElementById('ifr').contentWindow;
+  win.postMessage(msg, "http://example.com/");
+}
+var postMsg = {"login": "user logout"}; // this is just example
+postCrossDomainMessage(postMsg);
+</script>
+</body>
+</html>
