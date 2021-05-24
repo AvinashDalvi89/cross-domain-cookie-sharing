@@ -47,6 +47,9 @@ window.addEventListener('message', function(event) {
 
 }); 
 ```
+
+## Examples 
+- Cookie/localstorage sharing in angular apps (https://github.com/aviboy2006/cookie-or-localstorage-sharing-in-angular-apps) 
 ## Reference Blog 
 https://www.internetkatta.com/share-cookies-or-local-storage-data-between-cross-domain
 
