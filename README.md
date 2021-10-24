@@ -50,7 +50,14 @@ window.addEventListener('message', function(event) {
 
 ## Examples 
 - Cookie/localstorage sharing in angular apps (https://github.com/aviboy2006/cookie-or-localstorage-sharing-in-angular-apps) 
-## Reference Blog 
+
+## Session delivered so far 
+[![https://www.youtube.com/watch?v=4zfDyGD1Brk](https://www.avinashdalvi.com/assets/img/jsfriend-session-banner.png)](https://www.youtube.com/watch?v=4zfDyGD1Brk)
+[![https://www.youtube.com/watch?v=5pJd0apGHTk](https://user-images.githubusercontent.com/3996105/138595946-60ae09ab-a00a-4bbf-ae8a-c91db9c98436.jpeg)](https://www.youtube.com/watch?v=5pJd0apGHTk)
+
+
+
+## Reference Blog
 https://www.internetkatta.com/share-cookies-or-local-storage-data-between-cross-domain
 
 ## Contributing
